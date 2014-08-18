@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajaxed Comments\n"
+"POT-Creation-Date: 2013-07-09 22:05+0100\n"
+"PO-Revision-Date: 2013-09-18 23:19+0900\n"
+"Last-Translator: \n"
+"Language-Team: stranger-jp\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "before form"
+msgstr "フォームの前"
+
+msgid "form top"
+msgstr "フォームトップ"
+
+msgid "before form fields"
+msgstr "フォームフィールドの前"
+
+msgid "form bottom"
+msgstr "フォームの下部"
+
+msgid "after form"
+msgstr "フォームの後"
+
+msgid "inside form"
+msgstr "フォーム内"
+
+msgid "none"
+msgstr "なし"
+
+msgid "WordPress default"
+msgstr "WordPressのデフォルト"
+
+msgid "Bootstrap"
+msgstr "ブートストラップ"
+
+msgid "do not hide"
+msgstr "隠さない"
+
+msgid "1 second"
+msgstr "1秒"
+
+msgid "2 seconds"
+msgstr "2秒"
+
+msgid "3 seconds"
+msgstr "3秒"
+
+msgid "5 seconds"
+msgstr "5秒"
+
+msgid "10 seconds"
+msgstr "10秒"
+
+msgid "fade"
+msgstr "フェード"
+
+msgid "slide"
+msgstr "スライド"
+
+msgid "approved"
+msgstr "承認待ち"
+
+msgid "unapproved"
+msgstr "承認済み"
+
+msgid "trash"
+msgstr "ゴミ箱"
+
+msgid "spam"
+msgstr "スパム"
+
+msgid "Editing"
+msgstr "編集"
+
+msgid "Messages"
+msgstr "メッセージ"
+
+msgid "yes"
+msgstr "有効"
+
+msgid "no"
+msgstr "無効"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Time remaining"
+msgstr "残り時間"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Unapprove"
+msgstr "承認待ち"
+
+msgid "Spam"
+msgstr "スパム"
+
+msgid "Trash"
+msgstr "ゴミ箱"
+
+msgid "Approve"
+msgstr "承認済"
+
+msgid "Restore"
+msgstr "復元する"
+
+msgid "Unspam"
+msgstr "非スパム"
+
+msgid "Editing Settings"
+msgstr "設定の編集"
+
+msgid "Comments statuses"
+msgstr "コメントの状態"
+
+msgid "Comment Edit Timer"
+msgstr "コメント編集タイマー"
+
+msgid "Editing time"
+msgstr "コメント編集可能な時間"
+
+msgid "Delete permanently button"
+msgstr "コメント削除ボタン"
+
+msgid "Edit comment effect"
+msgstr "コメント編集の効果"
+
+msgid "CSS style"
+msgstr "CSSスタイル"
+
+msgid "Show on hover"
+msgstr "ホバー表示"
+
+msgid "Highlight comments"
+msgstr "コメントのハイライト表示"
+
+msgid "Highlight colors"
+msgstr "ハイライトの色"
+
+msgid "Messages Settings"
+msgstr "メッセージの設定"
+
+msgid "Message box position for logged in users"
+msgstr "ログインユーザーのメッセージボックス位置"
+
+msgid "Message box position for logged out users"
+msgstr "ログアウトユーザーのメッセージボックス位置"
+
+msgid "Show message effect"
+msgstr "メッセージの効果を示す"
+
+msgid "Hide message effect"
+msgstr "メッセージの効果を隠す"
+
+msgid "Hide message after"
+msgstr "メッセージを隠す"
+
+msgid "Comment timer allows users to edit their comments for specified time"
+msgstr "指定した時間内でコメント投稿者がコメントを編集することができます。"
+
+msgid "How much time (in minutes) a user has to edit a published comment"
+msgstr "ユーザーがコメントを編集可能な時間を指定します。(分単位)"
+
+msgid "Pick highlight colors for specific comment statuses"
+msgstr "コメントの状態のハイライト色を選択します。"
+
+msgid "Highlight comments with specific colors"
+msgstr "特定の色のコメントをハイライト表示します。"
+
+msgid "Show inline edit actions only on hovering over a comment"
+msgstr "コメントをホバリングでインライン編集アクションを表示します。"
+
+msgid "Select comments of which statuses will be available for moderation on the front-end of your site"
+msgstr "ステータスがサイトのフロントエンドには節度ために利用できるようになりますうちのコメントを選択します。"
+
+msgid "This will add Delete to edit buttons that allows you to permanently delete comments"
+msgstr "コメント削除ボタンを表示します。"
+
+msgid "Select animation for showing messages"
+msgstr "メッセージを表示するアニメーションを選択します。"
+
+msgid "Select animation for hiding messages"
+msgstr "メッセージを隠すアニメーションを選択します。"
+
+msgid "Select animation effect for edit comment"
+msgstr "編集コメントのアニメーションエフェクトを選択します。"
+
+msgid "Choose your message box style"
+msgstr "メッセージボックスのスタイルを選択してください。"
+
+msgid "Select style for edit buttons"
+msgstr "編集ボタンのスタイルを選択してください。"
+
+msgid "Select for how long message box should be displayed"
+msgstr "メッセージボックスをどのくらい表示させるか選択します。"
+
+msgid "Select message box position for logged in users"
+msgstr "ログインユーザーのメッセージボックスの位置を選択します。"
+
+msgid "Select message box position for logged out users"
+msgstr "ログアウトユーザのメッセージボックスの位置を選択します。"
+
+msgid "Ajaxed Comments"
+msgstr "Ajaxedコメント"
+
+msgid "Ajaxed Comments Settings"
+msgstr "Ajaxedコメントの設定"
+
+msgid "Need support?"
+msgstr "Need support?"
+
+msgid "If you are having problems with this plugin, please talk about them in the"
+msgstr "If you are having problems with this plugin, please talk about them in the"
+
+msgid "Support forum"
+msgstr "Support forum"
+
+msgid "Do you like this plugin?"
+msgstr "Do you like this plugin?"
+
+msgid "Rate it 5"
+msgstr "Rate it 5"
+
+msgid "on WordPress.org"
+msgstr "on WordPress.org"
+
+msgid "Blog about it & link to the"
+msgstr "Blog about it & link to the"
+
+msgid "plugin page"
+msgstr "plugin page"
+
+msgid "Check out our other"
+msgstr "Check out our other"
+
+msgid "WordPress plugins"
+msgstr "WordPress plugins"
+
+msgid "Created by"
+msgstr "Created by"
+
+msgid "Error has occurred. Please try again later or reload a page."
+msgstr "エラーが発生しました。後で再試行するか、ページを再読み込みしてください。"
+
+msgid "Comment is empty."
+msgstr "コメントは空です。"
+
+msgid "Are you sure you want to delete this comment?"
+msgstr "このコメントを削除してもよろしいですか？"
+
+msgid "Support"
+msgstr "サポート"
+
+msgid "Settings"
+msgstr "設定"

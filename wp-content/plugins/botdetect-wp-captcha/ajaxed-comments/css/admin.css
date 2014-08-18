@@ -1,0 +1,23 @@
+/* Ajaxed Comments settings */
+.df-credits { float: right; width: 280px; background: #fff; margin: 20px -300px 20px 20px; position: relative; box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); }
+.df-credits .inner { padding-left: 10px; padding-right: 10px; }
+.df-credits h3 { font-size: 14px; line-height: 1.4; margin: 0;  padding: 8px 12px; border-bottom: 1px solid #eee; }
+.df-credits .df-link { font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif; font-style:italic; padding-bottom: 10px; margin: 0; }
+.df-credits .df-link a { vertical-align: middle; padding: 5px 0 0 4px; }
+.ajaxed-comments-settings { margin-right: 300px; }
+.ajaxed-comments-settings hr, .df-credits hr { border: solid #eee; border-width: 1px 0 0; clear: both; height: 0; }
+.ajaxed-comments-settings form { float: left; min-width: 463px; width: auto; }
+.ajaxed-comments-settings fieldset span.description { margin-bottom: 8px; margin-top: 4px; display: block; }
+.ajaxed-comments-settings .ui-button { margin-bottom: 5px; }
+.ajaxed-comments-settings .description { font-size: 13px; margin-bottom: 8px; }
+.ajaxed-comments-settings .widefat td, .ajaxed-comments-settings .widefat th { padding: 8px 10px; }
+.ajaxed-comments-settings .widefat td, .ajaxed-comments-settings .widefat td p, .ajaxed-comments-settings .widefat td ol, .ajaxed-comments-settings .widefat td ul { font-size: 13px;    line-height: 1.5em; }
+.ajaxed-comments-settings .widefat * { word-wrap: break-word; }
+#ac_delete_group { margin-top: 5px; }
+#ac_highlight_colors .wp-picker-container { vertical-align: middle; }
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 959px) {
+	.df-credits { width: 100%; float: none; margin: 20px 0; }
+	.download-attachments-settings { margin-right: 0; }
+}

@@ -1,0 +1,13 @@
+/*
+CSS for Show Unread Comments Plugin
+*/
+
+img.suc_read
+{
+	border: 1px solid #CCCCCC;
+}
+
+img.suc_unread
+{
+	border: 1px solid #CCCCCC;
+}

@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajaxed Comments\n"
+"POT-Creation-Date: 2014-01-13 10:03+0100\n"
+"PO-Revision-Date: 2014-01-13 10:03+0100\n"
+"Last-Translator: Bartosz Arendt <info@digitalfactory.pl>\n"
+"Language-Team: dFactory <info@dfactory.eu>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajaxed-comments.php:227 ../ajaxed-comments.php:234
+msgid "before form"
+msgstr "przed formularzem"
+
+#: ../ajaxed-comments.php:228 ../ajaxed-comments.php:235
+msgid "form top"
+msgstr "na górze formularza"
+
+#: ../ajaxed-comments.php:229 ../ajaxed-comments.php:236
+msgid "before form fields"
+msgstr "przed polami formularza"
+
+#: ../ajaxed-comments.php:230
+msgid "form bottom"
+msgstr "na dole formularza"
+
+#: ../ajaxed-comments.php:231 ../ajaxed-comments.php:238
+msgid "after form"
+msgstr "po formularzu"
+
+#: ../ajaxed-comments.php:237
+msgid "inside form"
+msgstr "wewnątrz formularza"
+
+#: ../ajaxed-comments.php:243
+msgid "none"
+msgstr "brak"
+
+#: ../ajaxed-comments.php:244
+msgid "WordPress default"
+msgstr "Domyślny WordPressa"
+
+#: ../ajaxed-comments.php:245
+msgid "Bootstrap"
+msgstr "Bootstrap"
+
+#: ../ajaxed-comments.php:249
+msgid "do not hide"
+msgstr "nie ukrywaj"
+
+#: ../ajaxed-comments.php:250
+msgid "1 second"
+msgstr "1 sekunda"
+
+#: ../ajaxed-comments.php:251
+msgid "2 seconds"
+msgstr "2 sekundy"
+
+#: ../ajaxed-comments.php:252
+msgid "3 seconds"
+msgstr "3 sekundy"
+
+#: ../ajaxed-comments.php:253
+msgid "5 seconds"
+msgstr "5 sekund"
+
+#: ../ajaxed-comments.php:254
+msgid "10 seconds"
+msgstr "10 sekund"
+
+#: ../ajaxed-comments.php:258
+msgid "fade"
+msgstr "zanikanie"
+
+#: ../ajaxed-comments.php:259
+msgid "slide"
+msgstr "zjeżdżanie"
+
+#: ../ajaxed-comments.php:263
+msgid "approved"
+msgstr "zatwierdzone"
+
+#: ../ajaxed-comments.php:264
+msgid "unapproved"
+msgstr "niezatwierdzone"
+
+#: ../ajaxed-comments.php:265
+msgid "trash"
+msgstr "w koszu"
+
+#: ../ajaxed-comments.php:266
+msgid "spam"
+msgstr "spam"
+
+#: ../ajaxed-comments.php:271
+msgid "Editing"
+msgstr "Edycja"
+
+#: ../ajaxed-comments.php:276
+msgid "Messages"
+msgstr "Komunikaty"
+
+#: ../ajaxed-comments.php:283
+msgid "yes"
+msgstr "tak"
+
+#: ../ajaxed-comments.php:284
+msgid "no"
+msgstr "nie"
+
+#: ../ajaxed-comments.php:288
+msgid "admins only"
+msgstr "tylko administratorzy"
+
+#: ../ajaxed-comments.php:289
+msgid "logged in users"
+msgstr "zalogowani użytkownicy"
+
+#: ../ajaxed-comments.php:290
+msgid "all commenters"
+msgstr "wszyscy komentujący"
+
+#: ../ajaxed-comments.php:541
+msgid "Edit"
+msgstr "Edytuj"
+
+#: ../ajaxed-comments.php:541
+msgid "Save"
+msgstr "Zapisz"
+
+#: ../ajaxed-comments.php:541
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: ../ajaxed-comments.php:541
+msgid "Time remaining"
+msgstr "Pozostały czas"
+
+#: ../ajaxed-comments.php:542
+msgid "Delete"
+msgstr "Usuń"
+
+#: ../ajaxed-comments.php:553 ../ajaxed-comments.php:1223
+msgid "Unapprove"
+msgstr "Odrzuć"
+
+#: ../ajaxed-comments.php:553 ../ajaxed-comments.php:558
+#: ../ajaxed-comments.php:563 ../ajaxed-comments.php:1222
+msgid "Spam"
+msgstr "Oznacz jako spam"
+
+#: ../ajaxed-comments.php:553 ../ajaxed-comments.php:558
+#: ../ajaxed-comments.php:568 ../ajaxed-comments.php:1220
+msgid "Trash"
+msgstr "Kosz"
+
+#: ../ajaxed-comments.php:558 ../ajaxed-comments.php:1224
+msgid "Approve"
+msgstr "Zatwierdź"
+
+#: ../ajaxed-comments.php:563 ../ajaxed-comments.php:1219
+msgid "Restore"
+msgstr "Przywróć"
+
+#: ../ajaxed-comments.php:568 ../ajaxed-comments.php:1221
+msgid "Unspam"
+msgstr "Odznacz spam"
+
+#: ../ajaxed-comments.php:621
+msgid "Editing Settings"
+msgstr "Ustawienia edycji"
+
+#: ../ajaxed-comments.php:622
+msgid "Comments statuses"
+msgstr "Statusy komentarzy"
+
+#: ../ajaxed-comments.php:623
+msgid "Comment Edit Timer"
+msgstr "Edycja komentarza"
+
+#: ../ajaxed-comments.php:624
+msgid "Editing time"
+msgstr "Czas edycji"
+
+#: ../ajaxed-comments.php:625
+msgid "Delete permanently button"
+msgstr "Przycisk Usuń"
+
+#: ../ajaxed-comments.php:626
+msgid "Edit comment effect"
+msgstr "Efekt przy edycji komentarza"
+
+#: ../ajaxed-comments.php:627 ../ajaxed-comments.php:640
+msgid "CSS style"
+msgstr "Styl CSS"
+
+#: ../ajaxed-comments.php:628
+msgid "Show on hover"
+msgstr "Pokaż po najechaniu"
+
+#: ../ajaxed-comments.php:629
+msgid "Highlight comments"
+msgstr "Podświetlanie komentarzy"
+
+#: ../ajaxed-comments.php:630
+msgid "Highlight colors"
+msgstr "Kolory podświetlenia"
+
+#: ../ajaxed-comments.php:634
+msgid "Messages Settings"
+msgstr "Ustawienia komunikatów"
+
+#: ../ajaxed-comments.php:635
+msgid "Message box position for logged in users"
+msgstr "Pozycja pola z komunikatami dla zalogowanych użytkowników"
+
+#: ../ajaxed-comments.php:636
+msgid "Message box position for logged out users"
+msgstr "Pozycja pola z komunikatami dla niezalogowanych użytkowników"
+
+#: ../ajaxed-comments.php:637
+msgid "Show message effect"
+msgstr "Efekt wyświetlania komunikatów"
+
+#: ../ajaxed-comments.php:638
+msgid "Hide message effect"
+msgstr "Efekt ukrywania komunikatów"
+
+#: ../ajaxed-comments.php:639
+msgid "Hide message after"
+msgstr "Ukrywanie komunikatów po"
+
+#: ../ajaxed-comments.php:662
+msgid "Comment timer allows users to edit their comments for specified time"
+msgstr ""
+"Stoper komentarza pozwala użytkownikom na edycję ich komentarzy przez "
+"określony czas."
+
+#: ../ajaxed-comments.php:677
+msgid "How much time (in minutes) a user has to edit a published comment"
+msgstr "Jak długo (w minutach) użtkownik może edytować opublikowany komentarz"
+
+#: ../ajaxed-comments.php:701
+msgid "Pick highlight colors for specific comment statuses"
+msgstr "Wybierz kolory podświetlenia określonych statusów komentarzy"
+
+#: ../ajaxed-comments.php:724
+msgid "Highlight comments with specific colors"
+msgstr "Podświetl komentarze określonym kolorem"
+
+#: ../ajaxed-comments.php:747
+msgid "Show inline edit actions only on hovering over a comment"
+msgstr "Wyświetl przyciski tylko po najechaniu myszką na komentarz"
+
+#: ../ajaxed-comments.php:773
+msgid ""
+"Select comments of which statuses will be available for moderation on the "
+"front-end of your site"
+msgstr ""
+"Wybierz statusy komentarzy, które będą dostępne do moderacji na stronie"
+
+#: ../ajaxed-comments.php:809
+msgid ""
+"This will add Delete to edit buttons that allows you to permanently delete "
+"comments"
+msgstr ""
+"Zostanie dodany przycisk Usuń do przycików edycji, który umożliwia trwałe "
+"usunięcie komentarzy"
+
+#: ../ajaxed-comments.php:832
+msgid "Select animation for showing messages"
+msgstr "Wybierz animację przy wyświetlaniu komunikatów"
+
+#: ../ajaxed-comments.php:855
+msgid "Select animation for hiding messages"
+msgstr "Wybierz animację przy ukrywaniu komunikatów"
+
+#: ../ajaxed-comments.php:878
+msgid "Select animation effect for edit comment"
+msgstr "Wybierz animację przy edycji komentarza"
+
+#: ../ajaxed-comments.php:901
+msgid "Choose your message box style"
+msgstr "Wybierz styl dla pola z komunikatami"
+
+#: ../ajaxed-comments.php:924
+msgid "Select style for edit buttons"
+msgstr "Wybierz styl dla przycisków edycji"
+
+#: ../ajaxed-comments.php:947
+msgid "Select for how long message box should be displayed"
+msgstr "Wybierz przez jaki czas ma być wyświetlany komunikat"
+
+#: ../ajaxed-comments.php:970
+msgid "Select message box position for logged in users"
+msgstr "Wybierz pozycję pola z komunikatami dla zalogowanych użytkowników"
+
+#: ../ajaxed-comments.php:993
+msgid "Select message box position for logged out users"
+msgstr "Wybierz pozycję pola z komunikatami dla niezalogowanych użytkowników"
+
+#: ../ajaxed-comments.php:1084 ../ajaxed-comments.php:1085
+#: ../ajaxed-comments.php:1139
+msgid "Ajaxed Comments"
+msgstr "Komentarze Ajax"
+
+#: ../ajaxed-comments.php:1111
+msgid "Ajaxed Comments Settings"
+msgstr "Ustawienia komentarzy Ajax"
+
+#: ../ajaxed-comments.php:1141
+msgid "Need support?"
+msgstr "Potrzebujesz pomocy?"
+
+#: ../ajaxed-comments.php:1142
+msgid ""
+"If you are having problems with this plugin, please talk about them in the"
+msgstr "Jeśli masz jakiekolwiek problemy z tą wtyczką, powiedz o tym na"
+
+#: ../ajaxed-comments.php:1142
+msgid "Support forum"
+msgstr "Forum pomocy"
+
+#: ../ajaxed-comments.php:1144
+msgid "Do you like this plugin?"
+msgstr "Lubisz tę wtyczkę?"
+
+#: ../ajaxed-comments.php:1145
+msgid "Rate it 5"
+msgstr "Oceń ją na 5"
+
+#: ../ajaxed-comments.php:1145
+msgid "on WordPress.org"
+msgstr "na WordPress.org"
+
+#: ../ajaxed-comments.php:1146
+msgid "Blog about it & link to the"
+msgstr "Napisz o niej i dodaj link do"
+
+#: ../ajaxed-comments.php:1146
+msgid "plugin page"
+msgstr "strony wtyczki"
+
+#: ../ajaxed-comments.php:1147
+msgid "Check out our other"
+msgstr "Sprawdź nasze inne"
+
+#: ../ajaxed-comments.php:1147
+msgid "WordPress plugins"
+msgstr "wtyczki do WordPressa"
+
+#: ../ajaxed-comments.php:1150
+msgid "Created by"
+msgstr "Stworzone przez"
+
+#: ../ajaxed-comments.php:1230
+msgid "Error has occurred. Please try again later or reload a page."
+msgstr "Wystąpił nieznany błąd. Proszę spróbować później lub odświeżyć stronę."
+
+#: ../ajaxed-comments.php:1231
+msgid "Comment is empty."
+msgstr "Komentarz jest pusty."
+
+#: ../ajaxed-comments.php:1232
+msgid "Are you sure you want to delete this comment?"
+msgstr "Jesteś pewny, że chcesz usunąć ten komentarz."
+
+#: ../ajaxed-comments.php:1269
+msgid "Support"
+msgstr "Forum pomocy"
+
+#: ../ajaxed-comments.php:1291
+msgid "Settings"
+msgstr "Ustawienia"
+
+#~ msgid "Inline Edit"
+#~ msgstr "Edycja"
+
+#~ msgid "Unknown error has occurred."
+#~ msgstr "Wystąpił nieznany błąd."
+
+#~ msgid "Widgets"
+#~ msgstr "Widgety"
+
+#~ msgid "Custom Post Types"
+#~ msgstr "Własne typy wpisów"
+
+#~ msgid "Custom Post Type Archives"
+#~ msgstr "Archiwa własnych typów wpisów"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorie"
+
+#~ msgid "Taxonomies"
+#~ msgstr "Taksonomie"
+
+#~ msgid "Others"
+#~ msgstr "Inne"
+
+#~ msgid "Users"
+#~ msgstr "Użytkownicy"
+
+#~ msgid "Languages"
+#~ msgstr "Języki"
+
+#~ msgid "Front Page"
+#~ msgstr "Strona główna"
+
+#~ msgid "Blog Page"
+#~ msgstr "Strona z wpisami"
+
+#~ msgid "Single Posts"
+#~ msgstr "Pojedyncze wpisy"
+
+#~ msgid "Sticky Posts"
+#~ msgstr "Wpisy przyklejone"
+
+#~ msgid "Author Archive"
+#~ msgstr "Archiwum autora"
+
+#~ msgid "Date Archive"
+#~ msgstr "Archiwum daty"
+
+#~ msgid "404 Page"
+#~ msgstr "Strona błędów 404"
+
+#~ msgid "Search Page"
+#~ msgstr "Strona wyszukiwania"
+
+#~ msgid "Logged out users"
+#~ msgstr "Wylogowani użytkownicy"
+
+#~ msgid "Restrict widgets"
+#~ msgstr "Ograniczenia widgetów"
+
+#~ msgid ""
+#~ "Use this settings to manage access to widgets page and to restrict "
+#~ "availability of certain widgets, sidebars and widgets options to site "
+#~ "administrators only."
+#~ msgstr ""
+#~ "Użyj tych ustawień aby określić kto może mieć dostęp do widgetów, jakie "
+#~ "widgety, panele boczne i ustawienia widgetów są dostępne dla użytkowników "
+#~ "a jakie tylko dla administratorów."
+
+#~ msgid "Restrict Users"
+#~ msgstr "Ograniczenia użytkowników"
+
+#~ msgid "Select user roles restricted to manage widgets."
+#~ msgstr "Wybierz role użytkowników, którzy mogą zarządzać widgetami."
+
+#~ msgid "Restrict Sidebars"
+#~ msgstr "Ograniczenia paneli bocznych"
+
+#~ msgid "Select which sidebars will be restricted to admins only."
+#~ msgstr ""
+#~ "Wybierz panele boczne, które będą dostępne tylko dla administratorów."
+
+#~ msgid "Restrict Widgets"
+#~ msgstr "Ograniczenia widgetów"
+
+#~ msgid "Select which widgets will be restricted to admins only."
+#~ msgstr "Wybierz widgety, któe będą dostępne tylko dla administratorów."
+
+#~ msgid "Restrict Widget Options"
+#~ msgstr "Ograniczenia opcji widgetów"
+
+#~ msgid "Select which widget options will be restricted to admins only."
+#~ msgstr ""
+#~ "Wybierz które opcje widgetów, będą dostępne tylko dla administratorów."
+
+#~ msgid "Restrict Option Groups"
+#~ msgstr "Ograniczenia grup opcji"
+
+#~ msgid "Display widget options in groups"
+#~ msgstr "Wyświetl opcje widgetów w grupach"
+
+#~ msgid "Plugin Deactivation"
+#~ msgstr "Deaktywacja wtyczki"
+
+#~ msgid "Remove all plugin data on deactivation"
+#~ msgstr "Usuń wszystkie dane wtyczki podczas deaktywacji"
+
+#~ msgid "Single %s"
+#~ msgstr "Pojedyncze %s"
+
+#~ msgid "%s Archive"
+#~ msgstr "Archiwum %s"
+
+#~ msgid "Display / Hide Widget"
+#~ msgstr "Wyświetl / Ukryj widget"
+
+#~ msgid "Display widget on selected"
+#~ msgstr "Wyświetl widget na wybranych stronach"
+
+#~ msgid "Hide widget on selected"
+#~ msgstr "Ukryj widget na wybranych stronach"

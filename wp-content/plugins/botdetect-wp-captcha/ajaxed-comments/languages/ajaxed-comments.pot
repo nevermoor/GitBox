@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajaxed Comments\n"
+"POT-Creation-Date: 2013-07-09 22:05+0100\n"
+"PO-Revision-Date: 2013-07-09 22:06+0100\n"
+"Last-Translator: Bartosz Arendt <info@digitalfactory.pl>\n"
+"Language-Team: dFactory <info@dfactory.eu>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajaxed-comments.php:222 ../ajaxed-comments.php:229
+msgid "before form"
+msgstr ""
+
+#: ../ajaxed-comments.php:223 ../ajaxed-comments.php:230
+msgid "form top"
+msgstr ""
+
+#: ../ajaxed-comments.php:224 ../ajaxed-comments.php:231
+msgid "before form fields"
+msgstr ""
+
+#: ../ajaxed-comments.php:225
+msgid "form bottom"
+msgstr ""
+
+#: ../ajaxed-comments.php:226 ../ajaxed-comments.php:233
+msgid "after form"
+msgstr ""
+
+#: ../ajaxed-comments.php:232
+msgid "inside form"
+msgstr ""
+
+#: ../ajaxed-comments.php:237
+msgid "none"
+msgstr ""
+
+#: ../ajaxed-comments.php:238
+msgid "WordPress default"
+msgstr ""
+
+#: ../ajaxed-comments.php:239
+msgid "Bootstrap"
+msgstr ""
+
+#: ../ajaxed-comments.php:242
+msgid "do not hide"
+msgstr ""
+
+#: ../ajaxed-comments.php:243
+msgid "1 second"
+msgstr ""
+
+#: ../ajaxed-comments.php:244
+msgid "2 seconds"
+msgstr ""
+
+#: ../ajaxed-comments.php:245
+msgid "3 seconds"
+msgstr ""
+
+#: ../ajaxed-comments.php:246
+msgid "5 seconds"
+msgstr ""
+
+#: ../ajaxed-comments.php:247
+msgid "10 seconds"
+msgstr ""
+
+#: ../ajaxed-comments.php:250
+msgid "fade"
+msgstr ""
+
+#: ../ajaxed-comments.php:251
+msgid "slide"
+msgstr ""
+
+#: ../ajaxed-comments.php:254
+msgid "approved"
+msgstr ""
+
+#: ../ajaxed-comments.php:255
+msgid "unapproved"
+msgstr ""
+
+#: ../ajaxed-comments.php:256
+msgid "trash"
+msgstr ""
+
+#: ../ajaxed-comments.php:257
+msgid "spam"
+msgstr ""
+
+#: ../ajaxed-comments.php:261
+msgid "Editing"
+msgstr ""
+
+#: ../ajaxed-comments.php:266
+msgid "Messages"
+msgstr ""
+
+#: ../ajaxed-comments.php:272
+msgid "yes"
+msgstr ""
+
+#: ../ajaxed-comments.php:273
+msgid "no"
+msgstr ""
+
+#: ../ajaxed-comments.php:506
+msgid "Edit"
+msgstr ""
+
+#: ../ajaxed-comments.php:506
+msgid "Save"
+msgstr ""
+
+#: ../ajaxed-comments.php:506
+msgid "Cancel"
+msgstr ""
+
+#: ../ajaxed-comments.php:506
+msgid "Time remaining"
+msgstr ""
+
+#: ../ajaxed-comments.php:507
+msgid "Delete"
+msgstr ""
+
+#: ../ajaxed-comments.php:515 ../ajaxed-comments.php:1162
+msgid "Unapprove"
+msgstr ""
+
+#: ../ajaxed-comments.php:515 ../ajaxed-comments.php:517
+#: ../ajaxed-comments.php:519 ../ajaxed-comments.php:1161
+msgid "Spam"
+msgstr ""
+
+#: ../ajaxed-comments.php:515 ../ajaxed-comments.php:517
+#: ../ajaxed-comments.php:521 ../ajaxed-comments.php:1159
+msgid "Trash"
+msgstr ""
+
+#: ../ajaxed-comments.php:517 ../ajaxed-comments.php:1163
+msgid "Approve"
+msgstr ""
+
+#: ../ajaxed-comments.php:519 ../ajaxed-comments.php:1158
+msgid "Restore"
+msgstr ""
+
+#: ../ajaxed-comments.php:521 ../ajaxed-comments.php:1160
+msgid "Unspam"
+msgstr ""
+
+#: ../ajaxed-comments.php:574
+msgid "Editing Settings"
+msgstr ""
+
+#: ../ajaxed-comments.php:575
+msgid "Comments statuses"
+msgstr ""
+
+#: ../ajaxed-comments.php:576
+msgid "Comment Edit Timer"
+msgstr ""
+
+#: ../ajaxed-comments.php:577
+msgid "Editing time"
+msgstr ""
+
+#: ../ajaxed-comments.php:578
+msgid "Delete permanently button"
+msgstr ""
+
+#: ../ajaxed-comments.php:579
+msgid "Edit comment effect"
+msgstr ""
+
+#: ../ajaxed-comments.php:580 ../ajaxed-comments.php:593
+msgid "CSS style"
+msgstr ""
+
+#: ../ajaxed-comments.php:581
+msgid "Show on hover"
+msgstr ""
+
+#: ../ajaxed-comments.php:582
+msgid "Highlight comments"
+msgstr ""
+
+#: ../ajaxed-comments.php:583
+msgid "Highlight colors"
+msgstr ""
+
+#: ../ajaxed-comments.php:587
+msgid "Messages Settings"
+msgstr ""
+
+#: ../ajaxed-comments.php:588
+msgid "Message box position for logged in users"
+msgstr ""
+
+#: ../ajaxed-comments.php:589
+msgid "Message box position for logged out users"
+msgstr ""
+
+#: ../ajaxed-comments.php:590
+msgid "Show message effect"
+msgstr ""
+
+#: ../ajaxed-comments.php:591
+msgid "Hide message effect"
+msgstr ""
+
+#: ../ajaxed-comments.php:592
+msgid "Hide message after"
+msgstr ""
+
+#: ../ajaxed-comments.php:615
+msgid "Comment timer allows users to edit their comments for specified time"
+msgstr ""
+
+#: ../ajaxed-comments.php:630
+msgid "How much time (in minutes) a user has to edit a published comment"
+msgstr ""
+
+#: ../ajaxed-comments.php:654
+msgid "Pick highlight colors for specific comment statuses"
+msgstr ""
+
+#: ../ajaxed-comments.php:677
+msgid "Highlight comments with specific colors"
+msgstr ""
+
+#: ../ajaxed-comments.php:700
+msgid "Show inline edit actions only on hovering over a comment"
+msgstr ""
+
+#: ../ajaxed-comments.php:726
+msgid ""
+"Select comments of which statuses will be available for moderation on the "
+"front-end of your site"
+msgstr ""
+
+#: ../ajaxed-comments.php:749
+msgid ""
+"This will add Delete to edit buttons that allows you to permanently delete "
+"comments"
+msgstr ""
+
+#: ../ajaxed-comments.php:772
+msgid "Select animation for showing messages"
+msgstr ""
+
+#: ../ajaxed-comments.php:795
+msgid "Select animation for hiding messages"
+msgstr ""
+
+#: ../ajaxed-comments.php:818
+msgid "Select animation effect for edit comment"
+msgstr ""
+
+#: ../ajaxed-comments.php:841
+msgid "Choose your message box style"
+msgstr ""
+
+#: ../ajaxed-comments.php:864
+msgid "Select style for edit buttons"
+msgstr ""
+
+#: ../ajaxed-comments.php:887
+msgid "Select for how long message box should be displayed"
+msgstr ""
+
+#: ../ajaxed-comments.php:910
+msgid "Select message box position for logged in users"
+msgstr ""
+
+#: ../ajaxed-comments.php:933
+msgid "Select message box position for logged out users"
+msgstr ""
+
+#: ../ajaxed-comments.php:1016 ../ajaxed-comments.php:1017
+#: ../ajaxed-comments.php:1071
+msgid "Ajaxed Comments"
+msgstr ""
+
+#: ../ajaxed-comments.php:1043
+msgid "Ajaxed Comments Settings"
+msgstr ""
+
+#: ../ajaxed-comments.php:1073
+msgid "Need support?"
+msgstr ""
+
+#: ../ajaxed-comments.php:1074
+msgid ""
+"If you are having problems with this plugin, please talk about them in the"
+msgstr ""
+
+#: ../ajaxed-comments.php:1074
+msgid "Support forum"
+msgstr ""
+
+#: ../ajaxed-comments.php:1076
+msgid "Do you like this plugin?"
+msgstr ""
+
+#: ../ajaxed-comments.php:1077
+msgid "Rate it 5"
+msgstr ""
+
+#: ../ajaxed-comments.php:1077
+msgid "on WordPress.org"
+msgstr ""
+
+#: ../ajaxed-comments.php:1078
+msgid "Blog about it & link to the"
+msgstr ""
+
+#: ../ajaxed-comments.php:1078
+msgid "plugin page"
+msgstr ""
+
+#: ../ajaxed-comments.php:1079
+msgid "Check out our other"
+msgstr ""
+
+#: ../ajaxed-comments.php:1079
+msgid "WordPress plugins"
+msgstr ""
+
+#: ../ajaxed-comments.php:1082
+msgid "Created by"
+msgstr ""
+
+#: ../ajaxed-comments.php:1169
+msgid "Error has occurred. Please try again later or reload a page."
+msgstr ""
+
+#: ../ajaxed-comments.php:1170
+msgid "Comment is empty."
+msgstr ""
+
+#: ../ajaxed-comments.php:1171
+msgid "Are you sure you want to delete this comment?"
+msgstr ""
+
+#: ../ajaxed-comments.php:1208
+msgid "Support"
+msgstr ""
+
+#: ../ajaxed-comments.php:1230
+msgid "Settings"
+msgstr ""

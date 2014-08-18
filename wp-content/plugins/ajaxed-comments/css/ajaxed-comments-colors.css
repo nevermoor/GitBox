@@ -1,0 +1,9 @@
+.ac-full-hold > [id] {
+	background-color: #ffffe0 !important;
+}
+.ac-full-trash > [id] {
+	background-color: #ffaaaa !important;
+}
+.ac-full-spam > [id] {
+	background-color: #fff1cc !important;
+}
