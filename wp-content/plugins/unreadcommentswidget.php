@@ -97,4 +97,3 @@ function showGTs_init()
 }
 add_action("plugins_loaded", "showGTs_init");
 ?>
- 
