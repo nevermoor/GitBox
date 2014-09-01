@@ -49,7 +49,10 @@ var commentform=$('#commentform'); // find the comment form
 		              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
 		              	$('ol.commentlist').html(data);             
 	                }
-                }else{
+	               commentform.reset();
+                }
+                
+                else{
                     statusdiv.html('<p class="ajax-error" >Please wait a while before posting your next comment</p>');
                     commentform.find('textarea[name=comment]').val('');
                 }
