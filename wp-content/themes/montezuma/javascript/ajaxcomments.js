@@ -11,7 +11,6 @@ var commentform=$('#commentform'); // find the comment form
     commentform.submit(function(){
         //serialize and store form data in a variable
         var formdata=commentform.serialize();
-        alert(formdata);
         //Add a status message
         statusdiv.html('<p>Processing...</p>');
         //Extract action URL from commentform
@@ -29,7 +28,7 @@ var commentform=$('#commentform'); // find the comment form
             success: function(data, textStatus){
                 if(data == "success" || textStatus == "success"){
                     statusdiv.html('<p class="ajax-success" >Thanks for your comment. We appreciate your response.</p>');
-                    //alert(data); 
+                    alert(data); 
                     alert($("#comments")); 
                     if($("#comments").has("ol.commentlist").length > 0){
 					if(list != null){
@@ -43,7 +42,7 @@ var commentform=$('#commentform'); // find the comment form
                 } 
                 else{
 					alert('no success');
-               $("#comments").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
+               $("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
                $('ol.commentlist').html(data);             
                 }
                 }else{
