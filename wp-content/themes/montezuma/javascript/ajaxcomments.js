@@ -48,7 +48,7 @@ var commentform=$('#commentform'); // find the comment form
 		              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
 		              	$('ol.commentlist').html(data);             
 	                }
-	               commentform.val('');
+	               $('#comment-form').val('');
                 }
                 
                 else{
