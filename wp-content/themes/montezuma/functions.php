@@ -489,14 +489,14 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
                 */
                	echo ' <li class="comment byuser" ><div id="comment-$comment_ID">';
 	    		echo get_avatar($commentdata['comment_author_email'],35);
-	    		echo '<a class="comment-reply-link">Reply Disabled</a><span class="comment-author">';
+	    		echo '<a class="comment-reply-link">No Reply</a><span class="comment-author">';
 	            echo   comment_author_link($comment_ID);
 	   	        echo '</span> <span class="comment-date-link">';
 	            echo       comment_date( 'M j, Y', $comment_ID);
 	            echo '</span><a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">';
-	        	echo '(Edit)</a><div class="comment-text">';
+	        	echo 'Edit</a><div class="comment-text"><p>';
 	            echo $commentdata['comment_content'];
-	            echo '</div></div> ';
+	            echo '</p></div></div> ';
                 
                 break;
             default:
