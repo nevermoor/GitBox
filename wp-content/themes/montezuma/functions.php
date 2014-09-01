@@ -498,11 +498,10 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
             
             <span class="comment-date-link">'.
                    comment_date( 'M j, Y', $comment_ID). 
-            '</span>	'.			
-    
-            '<a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">
-        (Edit)</a>'
-            '<div class="comment-text">'.
+            '</span>	
+            <a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">
+        (Edit)</a>
+        	<div class="comment-text">'.
                $commentdata['comment_content'].
             '</div>
 	</div> ';
