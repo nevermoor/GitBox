@@ -11,6 +11,7 @@ var commentform=$('#commentform'); // find the comment form
     commentform.submit(function(){
         //serialize and store form data in a variable
         var formdata=commentform.serialize();
+        var parent=commentform.comment_parent.value;
         //Add a status message
         statusdiv.html('<p>Processing...</p>');
         //Extract action URL from commentform
@@ -28,7 +29,8 @@ var commentform=$('#commentform'); // find the comment form
             success: function(data, textStatus){
                 if(data == "success" || textStatus == "success"){
                     statusdiv.html('<p class="ajax-success" >Thanks for your comment. We appreciate your response.</p>');
-                    alert(data); 
+                    alert(data);
+                    alert(parent);
                     alert($("#comments")); 
                     if($("#comments").has("ol.commentlist").length > 0){
 					if(list != null){
