@@ -487,24 +487,17 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
                 wp_notify_postauthor($comment_ID, $commentdata['comment_type']);
                 break;
                 */
-               echo ' <li class="comment byuser" >
-  					<div id="comment-$comment_ID">
-    		'.
-    		get_avatar($commentdata['comment_author_email'],35).
-    		'<a class="comment-reply-link">Reply Disabled</a>
-    		<span class="comment-author">'.
-               comment_author_link($comment_ID).
-            '</span>
-            
-            <span class="comment-date-link">'.
-                   comment_date( 'M j, Y', $comment_ID). 
-            '</span>	
-            <a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">
-        (Edit)</a>
-        	<div class="comment-text">'.
-               $commentdata['comment_content'].
-            '</div>
-	</div> ';
+               	echo ' <li class="comment byuser" ><div id="comment-$comment_ID">';
+	    		echo get_avatar($commentdata['comment_author_email'],35);
+	    		echo '<a class="comment-reply-link">Reply Disabled</a><span class="comment-author">';
+	            echo   comment_author_link($comment_ID);
+	   	        echo '</span> <span class="comment-date-link">';
+	            echo       comment_date( 'M j, Y', $comment_ID);
+	            echo '</span><a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">';
+	        	echo '(Edit)</a><div class="comment-text">';
+	            echo $commentdata['comment_content'];
+	            echo '</div></div> ';
+                
                 break;
             default:
                 echo "error";
