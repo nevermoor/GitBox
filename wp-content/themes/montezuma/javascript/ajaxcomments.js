@@ -29,14 +29,14 @@ var commentform=$('#commentform'); // find the comment form
             success: function(data, textStatus){
                 if(data == "success" || textStatus == "success"){
                     statusdiv.html('<p class="ajax-success" >Thanks for your comment. We appreciate your response.</p>');
-                    alert(data);
+                    //alert(data);
                     if($("#comments").has("ol.commentlist").length > 0){
 						if(list != null){
 							alert('prepend');
 							$('div.rounded').prepend(data);
 						}
 						else{
-							alert('ap9end');
+							alert('ap1end');
 		                   	var location_str = '#comment-'+parent;
 		                   	//alert(location_str);
 		                   	//$('ol.commentlist').append(data);
@@ -48,7 +48,7 @@ var commentform=$('#commentform'); // find the comment form
 		              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
 		              	$('ol.commentlist').html(data);             
 	                }
-	               $('#comment-form').val('');
+	               $('textarea#comment-form')[0].val('');
                 }
                 
                 else{
