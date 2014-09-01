@@ -37,8 +37,9 @@ var commentform=$('#commentform'); // find the comment form
 					$('div.rounded').prepend(data);
 					}
 					else{
-					alert('ap5end');
-                   $('ol.commentlist').append(data);                 
+					alert('ap6end');
+                   //$('ol.commentlist').append(data); 
+                   $('comment-'+parent).append(data);
                    }
                 } 
                 else{
