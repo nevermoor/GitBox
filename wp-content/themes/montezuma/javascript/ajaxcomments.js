@@ -29,7 +29,7 @@ var commentform=$('#commentform'); // find the comment form
                 if(data == "success" || textStatus == "success"){
                     statusdiv.html('<p class="ajax-success" >Thanks for your comment. We appreciate your response.</p>');
                     alert(data); 
-                    
+                    alert($("#comments")); 
                     if($("#comments").has("ol.commentlist").length > 0){
 					if(list != null){
 					alert('prepend');
