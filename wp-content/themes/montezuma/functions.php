@@ -422,9 +422,9 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
                 //notify moderator of unapproved comment
                 wp_notify_moderator($comment_ID);
             case '1': //Approved comment
-                echo "success";
+                echo "success1";
                 $commentdata = &get_comment($comment_ID, ARRAY_A);
-				print_r( $commentdata);
+				//print_r( $commentdata);
               $permaurl = get_permalink( $post->ID );
               $url = str_replace('http://', '/', $permaurl);
 			
@@ -503,10 +503,10 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
             '<a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">
         (Edit)</a>'
             '<div class="comment-text">'.
-               comment_text($comment_ID).
+               $commentdata['comment_content'].
             '</div>
 	</div> ';
-                
+                break;
             default:
                 echo "error";
         }
