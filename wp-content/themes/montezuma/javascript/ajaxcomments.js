@@ -30,22 +30,23 @@ var commentform=$('#commentform'); // find the comment form
                 if(data == "success" || textStatus == "success"){
                     statusdiv.html('<p class="ajax-success" >Thanks for your comment. We appreciate your response.</p>');
                     alert(data);
-                    alert(parent);
                     if($("#comments").has("ol.commentlist").length > 0){
-					if(list != null){
-					alert('prepend');
-					$('div.rounded').prepend(data);
-					}
-					else{
-					alert('ap6end');
-                   //$('ol.commentlist').append(data); 
-                   $('comment-'+parent).append(data);
-                   }
-                } 
+						if(list != null){
+							alert('prepend');
+							$('div.rounded').prepend(data);
+						}
+						else{
+							alert('ap7end');
+		                   	var location_str = '#comment-'+parent;
+		                   	alert(location_str);
+		                   	//$('ol.commentlist').append(data);
+		                   	$(location_str).append(data);
+	                   }
+	                } 
                 else{
 					alert('no success');
-               $("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
-               $('ol.commentlist').html(data);             
+	              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
+	              	$('ol.commentlist').html(data);             
                 }
                 }else{
                     statusdiv.html('<p class="ajax-error" >Please wait a while before posting your next comment</p>');
