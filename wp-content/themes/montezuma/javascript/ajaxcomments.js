@@ -43,7 +43,7 @@ var commentform=$('#commentform'); // find the comment form
 		                   	$(location_str).append(data);
 	                   }
 	                } 
-	                $('#cancel-comment-reply-link').mousedown();
+	                $('#cancel-comment-reply-link').trigger('mousedown');
                 else{
 					alert('no success');
 	              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
