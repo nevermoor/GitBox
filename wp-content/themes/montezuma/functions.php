@@ -427,7 +427,8 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
 				//print_r( $commentdata);
               $permaurl = get_permalink( $post->ID );
               $url = str_replace('http://', '/', $permaurl);
-			  
+			
+			/*
 			  if($commentdata['comment_parent'] == 0){
             $output = '<li class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1" id="comment-' . $commentdata['comment_ID'] . '">
             <div id="div-comment-' . $commentdata['comment_ID'] . '" class="comment-body">
@@ -485,6 +486,36 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
            $post = &get_post($commentdata['comment_post_ID']);
                 wp_notify_postauthor($comment_ID, $commentdata['comment_type']);
                 break;
+                */
+               echo ' <li '.comment_class($comment_ID).' >
+  <div id="comment-$comment_ID">
+    		'.
+    		bfa_avatar($comment_ID).
+    		comment_reply_link( array(
+                'reply_text' => __( 'Reply', 'montezuma' ), 
+                'login_text' => __( 'Log in to Reply', 'montezuma' ),
+                'depth' => 1,
+                'max_depth' => 3) );
+    /*
+            <span class="comment-author">
+                <?php comment_author_link($comment_ID); ?>
+            </span>
+            
+            <span class="comment-date-link">
+                <a href="<?php comment_link(); ?>">
+                    <?php comment_date( 'M j, Y' ); ?> 
+                    <?php comment_time(); ?>
+                </a>
+              <?php comment_parent_link( __( 'UPP', 'montezuma' ) ); ?>
+            </span>				
+    
+            <?php edit_comment_link( __( 'Edit', 'montezuma' ) ); ?> 
+            <div class="comment-text">
+                <?php comment_text(); ?>
+                <?php bfa_comment_awaiting( __( 'Your comment is awaiting moderation.', 'montezuma' ) ); ?>
+            </div>
+	</div> `;
+                */
             default:
                 echo "error";
         }
