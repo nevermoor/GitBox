@@ -42,14 +42,13 @@ var commentform=$('#commentform'); // find the comment form
 		                   	//$('ol.commentlist').append(data);
 		                   	$(location_str).append(data);
 	                   	}
-	                	//$('#cancel-comment-reply-link').trigger('mousedown');
 	                } 
 	                else{
 						alert('no success');
 		              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
 		              	$('ol.commentlist').html(data);             
 	                }
-	               commentform.reset();
+	               commentform.val('');
                 }
                 
                 else{
