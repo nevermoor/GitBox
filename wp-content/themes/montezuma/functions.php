@@ -487,32 +487,23 @@ function ajaxify_comments_jaya($comment_ID, $comment_status) {
                 wp_notify_postauthor($comment_ID, $commentdata['comment_type']);
                 break;
                 */
-               echo ' <li '.comment_class($comment_ID).' >
-  <div id="comment-$comment_ID">
+               echo ' <li class="comment byuser" >
+  					<div id="comment-$comment_ID">
     		'.
-    		bfa_avatar($comment_ID).
-    		comment_reply_link( array(
-                'reply_text' => __( 'Reply', 'montezuma' ), 
-                'login_text' => __( 'Log in to Reply', 'montezuma' ),
-                'depth' => 1,
-                'max_depth' => 3) );
-    		echo '
-            <span class="comment-author">'.
+    		get_avatar($commentdata['comment_author_email'],35).
+    		'<a class="comment-reply-link">Reply Disabled</a>
+    		<span class="comment-author">'.
                comment_author_link($comment_ID).
             '</span>
             
-            <span class="comment-date-link">
-                <a href="<?php comment_link(); ?>">'.
-                   comment_date( 'M j, Y' ). 
-                    comment_time().
-                '</a>'.
-              comment_parent_link( __( 'UPP', 'montezuma' ) ).
+            <span class="comment-date-link">'.
+                   comment_date( 'M j, Y', $comment_ID). 
             '</span>	'.			
     
-            edit_comment_link( __( 'Edit', 'montezuma' ) ). 
+            '<a class="comment-edit-link" href="'. home_url() .'/wp-admin/comment.php?action=editcomment&amp;c='. $commentdata['comment_ID'] .'">
+        (Edit)</a>'
             '<div class="comment-text">'.
                comment_text($comment_ID).
-                bfa_comment_awaiting( __( 'Your comment is awaiting moderation.', 'montezuma' ) ).
             '</div>
 	</div> ';
                 
