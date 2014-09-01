@@ -11,7 +11,7 @@ var commentform=$('#commentform'); // find the comment form
     commentform.submit(function(){
         //serialize and store form data in a variable
         var formdata=commentform.serialize();
-        var parent=$('#commentform.comment_parent').val();
+        var parent=$('#commentform#comment_parent').val();
         //Add a status message
         statusdiv.html('<p>Processing...</p>');
         //Extract action URL from commentform
