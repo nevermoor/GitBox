@@ -29,17 +29,17 @@ var commentform=$('#commentform'); // find the comment form
             success: function(data, textStatus){
                 if(data == "success" || textStatus == "success"){
                     statusdiv.html('<p class="ajax-success" >Thanks for your comment. We appreciate your response.</p>');
-                    alert(data);
+                    //alert(data);
                     if($("#comments").has("ol.commentlist").length > 0){
 
 		                   	var location = $('#comment-'+parent);
-		                   	alert('5: 1');
+		                   	//alert('5: 1');
 		                   	if (location.length != 0)
 		                   		location.append(data);
 		                   	else
 		                   		$('ol.commentlist').append(data);
-		                   	$('textarea#comment-form')[0].val('');
-	               			alert ($('textarea#comment-form')[0].val);
+		                   	//$('textarea#comment-form')[0].val('');
+	               			//alert ($('textarea#comment-form')[0].val);
 	                	
 	            	} 
 	            	else{
