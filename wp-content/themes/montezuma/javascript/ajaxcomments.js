@@ -38,7 +38,7 @@ var commentform=$('#commentform'); // find the comment form
 						else{
 							alert('ap2end');
 		                   	var location = $('#comment-'+parent);
-		                   	if (location == null)
+		                   	if (location.val().length == 0)
 		                   		$('ol.commentlist').append(data);
 		                   	else
 		                   		location.append(data);
