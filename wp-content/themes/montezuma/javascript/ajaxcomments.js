@@ -36,12 +36,12 @@ var commentform=$('#commentform'); // find the comment form
 							$('div.rounded').prepend(data);
 						}
 						else{
-							alert('ap2end');
 		                   	var location = $('#comment-'+parent);
-		                   	if (location.val().length == 0)
-		                   		$('ol.commentlist').append(data);
-		                   	else
+		                   	alert('3: '+location.val());
+		                   	if (location.val() != 0)
 		                   		location.append(data);
+		                   	else
+		                   		$('ol.commentlist').append(data);
 		                   	$('textarea#comment-form')[0].val('');
 	               			alert ($('textarea#comment-form')[0].val());
 	                	}
