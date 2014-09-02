@@ -41,14 +41,15 @@ var commentform=$('#commentform'); // find the comment form
 		                   	//alert(location_str);
 		                   	//$('ol.commentlist').append(data);
 		                   	$(location_str).append(data);
-	                   	}
-	                } 
-	                else{
+	                	}
+	            	} 
+	            	else{
 						alert('no success');
 		              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
 		              	$('ol.commentlist').html(data);             
 	                }
 	               $('textarea#comment-form')[0].val('');
+	               alert ($('textarea#comment-form')[0].val());
                 }
                 
                 else{
