@@ -37,7 +37,6 @@ var commentform=$('#commentform'); // find the comment form
 						}
 						else{
 		                   	var location = $('#comment-'+parent);
-		                   	console.debug(location);
 		                   	alert('4: '+location.toSource());
 		                   	if (location.id.length != 0)
 		                   		location.append(data);
