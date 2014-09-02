@@ -37,13 +37,13 @@ var commentform=$('#commentform'); // find the comment form
 						}
 						else{
 		                   	var location = $('#comment-'+parent);
-		                   	alert('4: '+location.prop());
-		                   	if (location.prop().length != 0)
+		                   	alert('4: '+location);
+		                   	if (location.length != 0)
 		                   		location.append(data);
 		                   	else
 		                   		$('ol.commentlist').append(data);
 		                   	$('textarea#comment-form')[0].val('');
-	               			alert ($('textarea#comment-form')[0].val());
+	               			alert ($('textarea#comment-form')[0].val);
 	                	}
 	            	} 
 	            	else{
