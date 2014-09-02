@@ -37,10 +37,11 @@ var commentform=$('#commentform'); // find the comment form
 						}
 						else{
 							alert('ap2end');
-		                   	var location_str = '#comment-'+parent;
-		                   	//alert(location_str);
-		                   	//$('ol.commentlist').append(data);
-		                   	$(location_str).append(data);
+		                   	var location = $('#comment-'+parent);
+		                   	if (location == null)
+		                   		$('ol.commentlist').append(data);
+		                   	else
+		                   		location.append(data);
 		                   	$('textarea#comment-form')[0].val('');
 	               			alert ($('textarea#comment-form')[0].val());
 	                	}
