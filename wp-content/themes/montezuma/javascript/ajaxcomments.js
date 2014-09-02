@@ -36,11 +36,13 @@ var commentform=$('#commentform'); // find the comment form
 							$('div.rounded').prepend(data);
 						}
 						else{
-							alert('ap1end');
+							alert('ap2end');
 		                   	var location_str = '#comment-'+parent;
 		                   	//alert(location_str);
 		                   	//$('ol.commentlist').append(data);
 		                   	$(location_str).append(data);
+		                   	$('textarea#comment-form')[0].val('');
+	               			alert ($('textarea#comment-form')[0].val());
 	                	}
 	            	} 
 	            	else{
@@ -48,8 +50,7 @@ var commentform=$('#commentform'); // find the comment form
 		              	$("#commentsbox").find('div.post-info').prepend('<ol class="commentlist"> </ol>');
 		              	$('ol.commentlist').html(data);             
 	                }
-	               $('textarea#comment-form')[0].val('');
-	               alert ($('textarea#comment-form')[0].val());
+
                 }
                 
                 else{
