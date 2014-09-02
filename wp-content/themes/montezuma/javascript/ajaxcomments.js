@@ -37,8 +37,8 @@ var commentform=$('#commentform'); // find the comment form
 						}
 						else{
 		                   	var location = $('#comment-'+parent);
-		                   	alert('4: '+location.toSource());
-		                   	if (location.id.length != 0)
+		                   	alert('4: '+location.prop());
+		                   	if (location.prop().length != 0)
 		                   		location.append(data);
 		                   	else
 		                   		$('ol.commentlist').append(data);
